@@ -1,3 +1,6 @@
+// Useful for controlling fan in the bathroom. 
+// Startup is delayed (2 sec), so you can cancel it if was activated accidentally.
+// When turned off, it will continue running (for 5 seconds, adjust as needed).
 
 // go to Shelly's IP address with web browser
 // Select Channel settings -> IO settings -> DETACH mode (input and output are independent)

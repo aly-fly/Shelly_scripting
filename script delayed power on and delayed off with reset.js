@@ -56,7 +56,7 @@ function eventcallback(userdata) {
         // reset timer, if running
         Timer.clear(timer_handle);
         // activate timer to turn off output after 5 minutes
-        timer_handle = Timer.set(5*60000,false,timerOFFcallback,null); 
+        timer_handle = Timer.set(5*60000,false,TimerCallback,null); 
         print("timer off set for 5 min");
       }
     }

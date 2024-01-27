@@ -65,11 +65,11 @@ Shelly.addEventHandler(function(e) {
         if (debug) print("--> sw 1 ON");
         output (false, true);
         }
-      if (switch0status && !switch1status) {
+      if (!switch0status && switch1status) {
         if (debug) print("--> sw 0 ON");
         output (true, false);
         }
-      if (!switch0status && switch1status) {
+      if (switch0status && !switch1status) {
         if (debug) print("--> sw 0+1 ON");
         output (true, true);
         }

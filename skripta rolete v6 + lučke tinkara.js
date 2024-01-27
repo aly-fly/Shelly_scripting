@@ -90,7 +90,7 @@ let CONFIG = {
       conditions: {
 //        address: "5c:c7:c1:f3:d0:a4", // Spalnica
         address: "b4:35:22:28:ae:72", // Tinkara
-//        address: "60:ef:ab:40:50:16", // Marcel
+//        address: "90:ab:96:3d:5b:1a", // Marcel crn
         button: 1 // Single short button press
       },
       action: function (data) {
